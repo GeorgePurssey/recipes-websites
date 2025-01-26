@@ -1,0 +1,111 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #555;
+}
+
+
+.hero {
+    min-height: 60vh;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    padding: 2rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .input-group {
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.hero .form-control {
+    padding: 1.25rem;
+    font-size: 1rem;
+}
+
+.hero .btn-primary {
+    background-color: #6c63ff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+    background-color: #5146c7;
+}
+
+
+.recipes {
+    background-color: #ffffff;
+    padding: 3rem 1rem;
+}
+
+.recipes h2 {
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+/* Recipe Cards */
+.recipe-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card .card-body {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.recipe-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.recipe-card .btn-dark {
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #212529;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+    color: #adb5bd;
+}
